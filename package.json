@@ -15,6 +15,6 @@
     "quicktype": "^23.0.171"
   },
   "scripts": {
-    "generate:schema": "quicktype --src ./src/types/Person.ts --src-lang typescript --lang schema --out ./src/schemas/Person.json"
+    "generate:schema": "quicktype --src ./src/types/MemberInfo.ts --src-lang typescript --lang schema --out ./src/schemas/MemberInfo.json"
   }
 }
