@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ES2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "auto",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "declaration": false,
+    "moduleResolution": "Bundler",
+    "module": "Preserve",
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./"
+  },
+  "files": [
+    "global.d.ts"
+  ],
+  "include": [
+    "./**/*.ts",
+  ],
+  "exclude": [
+    "**/node_modules",
+    "dist",
+    "coverage",
+  ]
+}
